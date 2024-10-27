@@ -8,7 +8,6 @@ Contents
 1) Data Cleaning and Preparation: Scripts for preprocessing, handling missing values, and feature engineering using Pandas and NumPy.
 2) Exploratory Data Analysis (EDA): Visualizations and insights drawn from datasets using Matplotlib, Seaborn, and Plotly.
 3) Statistical Modeling and Machine Learning: Linear regression, classification, clustering, and advanced machine learning models using Scikit-learn.
-4) Natural Language Processing (NLP): Projects focused on text preprocessing, sentiment analysis, and topic modeling using NLTK and spaCy.
 
 Usage
 
