@@ -4,7 +4,7 @@ Analysing NASA’s climate data on CO2 levels, temperature anomalies, and methan
 
 **Project Overview**
 
-We aim to visualize trends and predict future climate metrics by:
+Aim is to visualize trends and predict future climate metrics by:
 
 EDA: Exploring data structure, identifying anomalies, and key trends.
 Visualization: Plotting historical trends using time series and trend lines.
