@@ -1,18 +1,31 @@
-# Financial Analysis of Apple Inc. (AAPL) Stock Prices
-Objective: Analyzed historical stock performance of Apple Inc. (AAPL) and its correlation with the U.S. unemployment rate (UNRATE) from January 2020 to January 2023.
+# Stock Price Viewer Application
 
-## Data Sources:
+## Overview
+The **Stock Price Viewer** is a web application built using **Dash** and **Plotly** that allows users to visualize and download intraday stock prices of publicly traded companies. The application fetches real-time stock data from the **Alpha Vantage** API, enabling users to explore stock prices based on various intervals.
 
-Yahoo Finance: Historical stock prices (Open, High, Low, Close, Volume).
-Quandl: Cross-referenced end-of-day stock prices.
-FRED API: Monthly unemployment rates.
+## Key Features
+- **Intraday Data Fetching**: Retrieve stock data at intervals of 1, 5, 15, 30, and 60 minutes.
+- **Interactive Visualization**: Display stock prices in a dynamic graph using Plotly.
+- **User Input**: Users can specify the stock symbol and date range for data visualization.
+- **Data Download**: Users can download the displayed data as a CSV file for offline analysis.
 
-## Methods:
+## Data Source
+### Alpha Vantage API
+- **Function Used**: `TIME_SERIES_INTRADAY`
+- **Parameters**:
+  - **symbol**: Stock ticker symbol (e.g., AAPL for Apple).
+  - **interval**: Time interval between data points (1min, 5min, etc.).
+  - **apikey**: Unique API key for accessing the Alpha Vantage service.
+  
+The API returns time-series data, which includes:
+- **Open**: Price at market open.
+- **High**: Highest price during the interval.
+- **Low**: Lowest price during the interval.
+- **Close**: Price at market close.
+- **Volume**: Number of shares traded.
 
-Fetched data using APIs and processed it using Python libraries (Pandas, Matplotlib).
-Conducted data visualization to examine trends and correlations between stock prices and unemployment rates.
+## Installation
+To run this application, you need to have Python and the following libraries installed:
 
-## Outcome:
-
-Visualized trends in AAPL stock prices alongside unemployment rates, highlighting macroeconomic influences on financial markets.
-Saved data for future analysis, supporting further exploration of economic indicators.
+```bash
+pip install dash plotly pandas requests
