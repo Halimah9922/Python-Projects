@@ -1,4 +1,4 @@
-**Sentiment Analysis of Financial News Headlines**
+*Sentiment Analysis of Financial News Headlines*
 
 Objective: Analyze sentiment in financial news headlines using traditional and machine learning-based NLP techniques. The project aims to categorize news sentiment as positive, negative, or neutral and visualize sentiment trends, providing insights for investors and financial institutions.
 
