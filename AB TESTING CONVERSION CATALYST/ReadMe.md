@@ -13,7 +13,6 @@ This repository contains an analysis of an A/B testing dataset to evaluate the e
 - [Key Findings](#key-findings)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## Technologies Used
 
