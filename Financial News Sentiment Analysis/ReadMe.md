@@ -1,4 +1,4 @@
-*Sentiment Analysis of Financial News Headlines*
+# Sentiment Analysis of Financial News Headlines*
 
 Objective: Analyze sentiment in financial news headlines using traditional and machine learning-based NLP techniques. The project aims to categorize news sentiment as positive, negative, or neutral and visualize sentiment trends, providing insights for investors and financial institutions.
 
@@ -16,7 +16,7 @@ sklearn
 networkx
 NLP Techniques:
 
-**Sentiment analysis**
+### Sentiment analysis
 Topic modeling (Latent Dirichlet Allocation - LDA)
 Text vectorization
 Project Sections
@@ -35,7 +35,8 @@ VADER: Provided additional sentiment insights tailored for short texts.
 Sentiment Categorization:
 
 Defined categories based on polarity scores.
-Visualization:
+
+### Visualization:
 
 Sentiment Distribution: Histogram and bar plots for sentiment scores and categories.
 Word Clouds: Visual representation of common words in positive and negative sentiment.
@@ -50,5 +51,6 @@ Insights and Applications:
 Trends in financial news sentiment.
 Key themes identified through topic modeling.
 Actionable insights for investment decision-making.
-Conclusion
+
+### Conclusion
 The project successfully illustrates how sentiment analysis can be conducted using various NLP techniques and visualizations, providing valuable insights into financial news sentiment and its implications for market analysis.
